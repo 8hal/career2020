@@ -231,11 +231,12 @@ footer hr {
   padding-bottom: 1em;
 }
 
-.experience h2 {
+.experience h2,.experience h3 {
   margin-bottom: 0;
 }
 
-.experience h2, .experience p {
+
+.experience h2,.experience h3, .experience p {
   text-align: center;
 }
 
@@ -244,7 +245,7 @@ footer hr {
 }
 
 @media screen and (min-width: 40em) {
-  .experience h2, .experience p {
+  .experience h2, .experience h3, .experience p {
     text-align: left;
   }
 }
@@ -261,7 +262,7 @@ footer hr {
 
 @media screen and (min-width: 40em) {
   .education {
-    width: 70%;
+    width: 80%;
   }
 }
 
